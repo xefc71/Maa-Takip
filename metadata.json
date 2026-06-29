@@ -1,0 +1,6 @@
+{
+  "name": "Maaş & Saat Takip",
+  "description": "Profesyonel çalışma saatleri takibi, otomatik mola düşümü, gece vardiyası hesabı ve gerçek zamanlı hakediş hesaplama uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

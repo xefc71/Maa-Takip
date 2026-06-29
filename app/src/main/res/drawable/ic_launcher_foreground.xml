@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Stopwatch Outline (Golden Gold) -->
+    <path
+        android:strokeWidth="3.5"
+        android:strokeColor="#FBBF24"
+        android:strokeLineCap="round"
+        android:pathData="M54,24 A30,30 0 1 1 53.9,24 Z" />
+        
+    <!-- Stopwatch Top Button -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M50,14 h8 v4 h-8 z" />
+        
+    <!-- Stopwatch Left Button Accent -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M30,22 l3,3 l-2,2 l-3,-3 z" />
+
+    <!-- Trend Line / Hour Indicator (Emerald Green) -->
+    <path
+        android:strokeWidth="3"
+        android:strokeColor="#10B981"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M42,58 L50,50 L58,56 L68,42" />
+
+    <!-- Trend Arrow Tip -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M62,42 h6 v6 z" />
+
+    <!-- Clock Center Dot -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <path
+            android:fillColor="#10B981"
+            android:pathData="M52.5,54 A1.5,1.5 0 1 1 52.4,54 Z" />
+    </group>
+</vector>
